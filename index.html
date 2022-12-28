@@ -10,7 +10,44 @@
     <title>small_shop</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+           <div class="col-xs-12 col-xxl5">
+                <div class="goods_box" id="goods">
+                    <div class="menu">
+                        <input type="text" placeholder="Search" class="search">
+                        <button class="add btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">&#10010;</button>
+                    </div>
+                    <div class="table-responsive">
+                       <table class="goods table mt-3" id="table1">
+                           <thead>
+                           <tr class="table-primary align-middle">
+                               <th>#</th>
+                               <th>Name</th>
+                               <th>Price, USD</th>
+                               <th>Quantity</th>
+                               <th></th>
+                               <th></th>
+                           </tr>
+                           </thead>
+                           <tbody class="list">
 
+                           </tbody>
+                       </table>
+                    </div>
+                </div>
+           </div>
+           <div class="col-xs-12 col-xxl7">
+               <div class="price_box">
+                   <div class="menu">
+                       <div class="price_title">
+                           Total <span class="price_result">0 USD</span>
+                       </div>  ... -11.51
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/sweetalert2.all.min.js"></script>
     <script src="js/list.js"></script>
